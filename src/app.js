@@ -58,7 +58,7 @@ app.use("/api", router_order); // Router Order
 
 
 // Ket noi database
-mongoose.connect("mongodb://127.0.0.1:27017/shopping", () => {
+mongoose.connect("mongodb+srv://thienhn0511:QMFPKmbXfv2mxtvR@cluster0-hoangthiendev.xp0zuix.mongodb.net/shopping?retryWrites=true&w=majority&appName=Cluster0-HoangThienDev", () => {
   console.log("successfully!");
 });
 
